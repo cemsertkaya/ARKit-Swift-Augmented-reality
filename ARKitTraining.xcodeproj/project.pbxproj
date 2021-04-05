@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B23210112614BAC3003EC275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23210102614BAC3003EC275 /* AppDelegate.swift */; };
 		B23210132614BAC3003EC275 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23210122614BAC3003EC275 /* SceneDelegate.swift */; };
-		B23210152614BAC3003EC275 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23210142614BAC3003EC275 /* ViewController.swift */; };
+		B23210152614BAC3003EC275 /* DistanceMeasurementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23210142614BAC3003EC275 /* DistanceMeasurementController.swift */; };
 		B23210182614BAC3003EC275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23210162614BAC3003EC275 /* Main.storyboard */; };
 		B232101A2614BAC6003EC275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23210192614BAC6003EC275 /* Assets.xcassets */; };
 		B232101D2614BAC6003EC275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B232101B2614BAC6003EC275 /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		B232100D2614BAC3003EC275 /* ARKitTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23210102614BAC3003EC275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B23210122614BAC3003EC275 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B23210142614BAC3003EC275 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B23210142614BAC3003EC275 /* DistanceMeasurementController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceMeasurementController.swift; sourceTree = "<group>"; };
 		B23210172614BAC3003EC275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B23210192614BAC6003EC275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B232101C2614BAC6003EC275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			children = (
 				B23210102614BAC3003EC275 /* AppDelegate.swift */,
 				B23210122614BAC3003EC275 /* SceneDelegate.swift */,
-				B23210142614BAC3003EC275 /* ViewController.swift */,
+				B23210142614BAC3003EC275 /* DistanceMeasurementController.swift */,
 				B23210162614BAC3003EC275 /* Main.storyboard */,
 				B23210192614BAC6003EC275 /* Assets.xcassets */,
 				B232101B2614BAC6003EC275 /* LaunchScreen.storyboard */,
@@ -258,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B23210152614BAC3003EC275 /* ViewController.swift in Sources */,
+				B23210152614BAC3003EC275 /* DistanceMeasurementController.swift in Sources */,
 				B23210112614BAC3003EC275 /* AppDelegate.swift in Sources */,
 				B23210132614BAC3003EC275 /* SceneDelegate.swift in Sources */,
 			);
