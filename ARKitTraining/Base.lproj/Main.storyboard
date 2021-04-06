@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bo4-90-Jcq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0Pa-ei-a3D">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -8,10 +8,85 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="zjk-ye-vfO">
+            <objects>
+                <viewController id="t77-QJ-3Qw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XX8-iK-lg7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jkl-YK-cDm">
+                                <rect key="frame" x="82" y="132" width="251" height="77"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="E4v-fI-9lj"/>
+                                </constraints>
+                                <state key="normal" title="Distance Measurement"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="wDs-Xn-vr3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q9e-hH-ev2">
+                                <rect key="frame" x="82" y="349" width="251" height="30"/>
+                                <state key="normal" title="AR-Portal"/>
+                                <connections>
+                                    <segue destination="s9g-bP-Jgl" kind="show" id="vFo-Mn-o6h"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9CQ-dz-8A6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Jkl-YK-cDm" firstAttribute="leading" secondItem="9CQ-dz-8A6" secondAttribute="leading" constant="82" id="51e-8M-7li"/>
+                            <constraint firstItem="9CQ-dz-8A6" firstAttribute="bottom" secondItem="q9e-hH-ev2" secondAttribute="bottom" constant="483" id="8wV-mB-XWT"/>
+                            <constraint firstItem="9CQ-dz-8A6" firstAttribute="trailing" secondItem="Jkl-YK-cDm" secondAttribute="trailing" constant="81" id="QeY-eI-b79"/>
+                            <constraint firstItem="Jkl-YK-cDm" firstAttribute="leading" secondItem="q9e-hH-ev2" secondAttribute="leading" id="SdW-2q-Gmn"/>
+                            <constraint firstItem="Jkl-YK-cDm" firstAttribute="trailing" secondItem="q9e-hH-ev2" secondAttribute="trailing" id="g5p-6m-QNv"/>
+                            <constraint firstItem="Jkl-YK-cDm" firstAttribute="top" secondItem="9CQ-dz-8A6" secondAttribute="top" constant="44" id="zoO-Aa-8Tg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="aum-ZG-NnF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tTN-03-jWq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2392.753623188406" y="752.67857142857144"/>
+        </scene>
+        <!--Portal View Controller-->
+        <scene sceneID="1uD-iz-rEl">
+            <objects>
+                <viewController id="s9g-bP-Jgl" customClass="ARPortalViewController" customModule="ARKitTraining" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DDd-PX-mcc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0lR-Pq-SC8">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                            </arscnView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="njG-iC-tB5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0lR-Pq-SC8" firstAttribute="leading" secondItem="njG-iC-tB5" secondAttribute="leading" id="FTb-HY-7Jt"/>
+                            <constraint firstItem="0lR-Pq-SC8" firstAttribute="bottom" secondItem="njG-iC-tB5" secondAttribute="bottom" id="FbQ-tF-jxs"/>
+                            <constraint firstItem="0lR-Pq-SC8" firstAttribute="top" secondItem="njG-iC-tB5" secondAttribute="top" id="HbW-io-Q6p"/>
+                            <constraint firstItem="0lR-Pq-SC8" firstAttribute="centerX" secondItem="DDd-PX-mcc" secondAttribute="centerX" id="wBu-sW-3qY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="H6l-KT-3bv">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="V3f-jg-exb"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="barText" destination="V3f-jg-exb" id="2bD-ME-ic8"/>
+                        <outlet property="sceneView" destination="0lR-Pq-SC8" id="HzL-Gq-iiy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W1v-Q0-faq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2392.753623188406" y="1634.5982142857142"/>
+        </scene>
         <!--Distance Measurement Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="DistanceMeasurementController" customModule="ARKitTraining" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -109,26 +184,27 @@
                         <outlet property="zLabel" destination="Tbv-r5-WCy" id="rKk-yM-h91"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2613.04347826087" y="752.67857142857144"/>
+            <point key="canvasLocation" x="1454" y="1635"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="FZP-jo-aOB">
+        <scene sceneID="z4p-aa-gL7">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bo4-90-Jcq" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0Pa-ei-a3D" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oYf-3O-MoS">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CRZ-YY-Aqr">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="31H-yH-zfT"/>
+                        <segue destination="t77-QJ-3Qw" kind="relationship" relationship="rootViewController" id="0SO-Rd-WbS"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pjS-N2-TfD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zS3-CR-0Jg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1702.8985507246377" y="752.67857142857144"/>
+            <point key="canvasLocation" x="2393" y="-50"/>
         </scene>
     </scenes>
     <resources>
