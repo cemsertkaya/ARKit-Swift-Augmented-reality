@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FCD43B5DA29FB5BDCE4E057 /* Pods_ARKitTrainingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75087F40DADA143AD44A7F81 /* Pods_ARKitTrainingTests.framework */; };
 		B23210112614BAC3003EC275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23210102614BAC3003EC275 /* AppDelegate.swift */; };
 		B23210132614BAC3003EC275 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23210122614BAC3003EC275 /* SceneDelegate.swift */; };
 		B23210152614BAC3003EC275 /* DistanceMeasurementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23210142614BAC3003EC275 /* DistanceMeasurementController.swift */; };
@@ -15,8 +16,12 @@
 		B232101D2614BAC6003EC275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B232101B2614BAC6003EC275 /* LaunchScreen.storyboard */; };
 		B23210282614BAC6003EC275 /* ARKitTrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23210272614BAC6003EC275 /* ARKitTrainingTests.swift */; };
 		B23210332614BAC7003EC275 /* ARKitTrainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23210322614BAC7003EC275 /* ARKitTrainingUITests.swift */; };
-		B26E56D7261CDA1700E913DB /* Portal.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B26E56D6261CDA1700E913DB /* Portal.scnassets */; };
+		B2734F08261F3D21004F4296 /* Portal.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B2734F07261F3D21004F4296 /* Portal.scnassets */; };
+		B2734F0E261F3F4C004F4296 /* BasketballViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2734F0D261F3F4C004F4296 /* BasketballViewController.swift */; };
+		B2734F14261F4255004F4296 /* Basketball.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B2734F13261F4255004F4296 /* Basketball.scnassets */; };
 		B27E6D1F261CB118004E817A /* ARPortalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27E6D1E261CB118004E817A /* ARPortalViewController.swift */; };
+		E111ED27ACFA0088D394C8DD /* Pods_ARKitTraining_ARKitTrainingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CE820AFC1ABC9F49F60AD0 /* Pods_ARKitTraining_ARKitTrainingUITests.framework */; };
+		F09AD227A6200E6CCABACF9B /* Pods_ARKitTraining.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87627CF60874F701658F3552 /* Pods_ARKitTraining.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0649C80DFD8E4C88B83D1898 /* Pods-ARKitTraining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitTraining.release.xcconfig"; path = "Target Support Files/Pods-ARKitTraining/Pods-ARKitTraining.release.xcconfig"; sourceTree = "<group>"; };
+		0C716EF281C7BE781A5F80EF /* Pods-ARKitTraining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitTraining.debug.xcconfig"; path = "Target Support Files/Pods-ARKitTraining/Pods-ARKitTraining.debug.xcconfig"; sourceTree = "<group>"; };
+		4AD74B51925A1789A0CFC579 /* Pods-ARKitTraining-ARKitTrainingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitTraining-ARKitTrainingUITests.release.xcconfig"; path = "Target Support Files/Pods-ARKitTraining-ARKitTrainingUITests/Pods-ARKitTraining-ARKitTrainingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		75087F40DADA143AD44A7F81 /* Pods_ARKitTrainingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARKitTrainingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86CE820AFC1ABC9F49F60AD0 /* Pods_ARKitTraining_ARKitTrainingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARKitTraining_ARKitTrainingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87627CF60874F701658F3552 /* Pods_ARKitTraining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARKitTraining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B232100D2614BAC3003EC275 /* ARKitTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23210102614BAC3003EC275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B23210122614BAC3003EC275 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,8 +62,13 @@
 		B232102E2614BAC6003EC275 /* ARKitTrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitTrainingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23210322614BAC7003EC275 /* ARKitTrainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitTrainingUITests.swift; sourceTree = "<group>"; };
 		B23210342614BAC7003EC275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B26E56D6261CDA1700E913DB /* Portal.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Portal.scnassets; sourceTree = "<group>"; };
+		B2734F07261F3D21004F4296 /* Portal.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Portal.scnassets; sourceTree = "<group>"; };
+		B2734F0D261F3F4C004F4296 /* BasketballViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballViewController.swift; sourceTree = "<group>"; };
+		B2734F13261F4255004F4296 /* Basketball.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Basketball.scnassets; sourceTree = "<group>"; };
 		B27E6D1E261CB118004E817A /* ARPortalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPortalViewController.swift; sourceTree = "<group>"; };
+		CACDA9D24956F3F1F4896D96 /* Pods-ARKitTraining-ARKitTrainingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitTraining-ARKitTrainingUITests.debug.xcconfig"; path = "Target Support Files/Pods-ARKitTraining-ARKitTrainingUITests/Pods-ARKitTraining-ARKitTrainingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA09F7DF474D8E245FB94C65 /* Pods-ARKitTrainingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitTrainingTests.release.xcconfig"; path = "Target Support Files/Pods-ARKitTrainingTests/Pods-ARKitTrainingTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3929DCF6E603A5A15B86B9E /* Pods-ARKitTrainingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitTrainingTests.debug.xcconfig"; path = "Target Support Files/Pods-ARKitTrainingTests/Pods-ARKitTrainingTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F09AD227A6200E6CCABACF9B /* Pods_ARKitTraining.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FCD43B5DA29FB5BDCE4E057 /* Pods_ARKitTrainingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +92,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E111ED27ACFA0088D394C8DD /* Pods_ARKitTraining_ARKitTrainingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BDA3FFD10B2CB15F62F76B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C716EF281C7BE781A5F80EF /* Pods-ARKitTraining.debug.xcconfig */,
+				0649C80DFD8E4C88B83D1898 /* Pods-ARKitTraining.release.xcconfig */,
+				CACDA9D24956F3F1F4896D96 /* Pods-ARKitTraining-ARKitTrainingUITests.debug.xcconfig */,
+				4AD74B51925A1789A0CFC579 /* Pods-ARKitTraining-ARKitTrainingUITests.release.xcconfig */,
+				F3929DCF6E603A5A15B86B9E /* Pods-ARKitTrainingTests.debug.xcconfig */,
+				DA09F7DF474D8E245FB94C65 /* Pods-ARKitTrainingTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		586D057A03B9E4243558EA0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87627CF60874F701658F3552 /* Pods_ARKitTraining.framework */,
+				86CE820AFC1ABC9F49F60AD0 /* Pods_ARKitTraining_ARKitTrainingUITests.framework */,
+				75087F40DADA143AD44A7F81 /* Pods_ARKitTrainingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B23210042614BAC3003EC275 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +130,8 @@
 				B23210262614BAC6003EC275 /* ARKitTrainingTests */,
 				B23210312614BAC6003EC275 /* ARKitTrainingUITests */,
 				B232100E2614BAC3003EC275 /* Products */,
+				0BDA3FFD10B2CB15F62F76B2 /* Pods */,
+				586D057A03B9E4243558EA0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,15 +148,15 @@
 		B232100F2614BAC3003EC275 /* ARKitTraining */ = {
 			isa = PBXGroup;
 			children = (
+				B2734F12261F4037004F4296 /* View Controllers */,
 				B23210102614BAC3003EC275 /* AppDelegate.swift */,
 				B23210122614BAC3003EC275 /* SceneDelegate.swift */,
-				B23210142614BAC3003EC275 /* DistanceMeasurementController.swift */,
-				B27E6D1E261CB118004E817A /* ARPortalViewController.swift */,
 				B23210162614BAC3003EC275 /* Main.storyboard */,
 				B23210192614BAC6003EC275 /* Assets.xcassets */,
 				B232101B2614BAC6003EC275 /* LaunchScreen.storyboard */,
 				B232101E2614BAC6003EC275 /* Info.plist */,
-				B26E56D6261CDA1700E913DB /* Portal.scnassets */,
+				B2734F13261F4255004F4296 /* Basketball.scnassets */,
+				B2734F07261F3D21004F4296 /* Portal.scnassets */,
 			);
 			path = ARKitTraining;
 			sourceTree = "<group>";
@@ -134,6 +179,16 @@
 			path = ARKitTrainingUITests;
 			sourceTree = "<group>";
 		};
+		B2734F12261F4037004F4296 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B23210142614BAC3003EC275 /* DistanceMeasurementController.swift */,
+				B27E6D1E261CB118004E817A /* ARPortalViewController.swift */,
+				B2734F0D261F3F4C004F4296 /* BasketballViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B23210372614BAC7003EC275 /* Build configuration list for PBXNativeTarget "ARKitTraining" */;
 			buildPhases = (
+				DBE5E3624422CD487AA4E041 /* [CP] Check Pods Manifest.lock */,
 				B23210092614BAC3003EC275 /* Sources */,
 				B232100A2614BAC3003EC275 /* Frameworks */,
 				B232100B2614BAC3003EC275 /* Resources */,
+				705495A432F702A3EED3BE9D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B232103A2614BAC7003EC275 /* Build configuration list for PBXNativeTarget "ARKitTrainingTests" */;
 			buildPhases = (
+				C3B0E5A14FF7C8C218400A48 /* [CP] Check Pods Manifest.lock */,
 				B232101F2614BAC6003EC275 /* Sources */,
 				B23210202614BAC6003EC275 /* Frameworks */,
 				B23210212614BAC6003EC275 /* Resources */,
@@ -176,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B232103D2614BAC7003EC275 /* Build configuration list for PBXNativeTarget "ARKitTrainingUITests" */;
 			buildPhases = (
+				72BAAFA371D031D14091ACA3 /* [CP] Check Pods Manifest.lock */,
 				B232102A2614BAC6003EC275 /* Sources */,
 				B232102B2614BAC6003EC275 /* Frameworks */,
 				B232102C2614BAC6003EC275 /* Resources */,
+				C640529744443173E3A56ECB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,10 +297,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2734F14261F4255004F4296 /* Basketball.scnassets in Resources */,
 				B232101D2614BAC6003EC275 /* LaunchScreen.storyboard in Resources */,
 				B232101A2614BAC6003EC275 /* Assets.xcassets in Resources */,
 				B23210182614BAC3003EC275 /* Main.storyboard in Resources */,
-				B26E56D7261CDA1700E913DB /* Portal.scnassets in Resources */,
+				B2734F08261F3D21004F4296 /* Portal.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +321,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		705495A432F702A3EED3BE9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARKitTraining/Pods-ARKitTraining-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARKitTraining/Pods-ARKitTraining-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARKitTraining/Pods-ARKitTraining-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72BAAFA371D031D14091ACA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARKitTraining-ARKitTrainingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B0E5A14FF7C8C218400A48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARKitTrainingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C640529744443173E3A56ECB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARKitTraining-ARKitTrainingUITests/Pods-ARKitTraining-ARKitTrainingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARKitTraining-ARKitTrainingUITests/Pods-ARKitTraining-ARKitTrainingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARKitTraining-ARKitTrainingUITests/Pods-ARKitTraining-ARKitTrainingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE5E3624422CD487AA4E041 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARKitTraining-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B23210092614BAC3003EC275 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,6 +432,7 @@
 				B23210152614BAC3003EC275 /* DistanceMeasurementController.swift in Sources */,
 				B23210112614BAC3003EC275 /* AppDelegate.swift in Sources */,
 				B23210132614BAC3003EC275 /* SceneDelegate.swift in Sources */,
+				B2734F0E261F3F4C004F4296 /* BasketballViewController.swift in Sources */,
 				B27E6D1F261CB118004E817A /* ARPortalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +606,7 @@
 		};
 		B23210382614BAC7003EC275 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C716EF281C7BE781A5F80EF /* Pods-ARKitTraining.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +626,7 @@
 		};
 		B23210392614BAC7003EC275 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0649C80DFD8E4C88B83D1898 /* Pods-ARKitTraining.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +646,7 @@
 		};
 		B232103B2614BAC7003EC275 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3929DCF6E603A5A15B86B9E /* Pods-ARKitTrainingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -501,6 +669,7 @@
 		};
 		B232103C2614BAC7003EC275 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA09F7DF474D8E245FB94C65 /* Pods-ARKitTrainingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -523,6 +692,7 @@
 		};
 		B232103E2614BAC7003EC275 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CACDA9D24956F3F1F4896D96 /* Pods-ARKitTraining-ARKitTrainingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +713,7 @@
 		};
 		B232103F2614BAC7003EC275 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD74B51925A1789A0CFC579 /* Pods-ARKitTraining-ARKitTrainingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
