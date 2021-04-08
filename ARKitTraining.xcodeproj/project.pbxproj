@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,8 @@
 		B2734F0E261F3F4C004F4296 /* BasketballViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2734F0D261F3F4C004F4296 /* BasketballViewController.swift */; };
 		B2734F14261F4255004F4296 /* Basketball.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B2734F13261F4255004F4296 /* Basketball.scnassets */; };
 		B27E6D1F261CB118004E817A /* ARPortalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27E6D1E261CB118004E817A /* ARPortalViewController.swift */; };
+		B2F1BE35261F86330011D364 /* CollisionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F1BE34261F86330011D364 /* CollisionsViewController.swift */; };
+		B2F1BE3A261F87350011D364 /* Media.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F1BE39261F87340011D364 /* Media.scnassets */; };
 		E111ED27ACFA0088D394C8DD /* Pods_ARKitTraining_ARKitTrainingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CE820AFC1ABC9F49F60AD0 /* Pods_ARKitTraining_ARKitTrainingUITests.framework */; };
 		F09AD227A6200E6CCABACF9B /* Pods_ARKitTraining.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87627CF60874F701658F3552 /* Pods_ARKitTraining.framework */; };
 /* End PBXBuildFile section */
@@ -66,6 +68,8 @@
 		B2734F0D261F3F4C004F4296 /* BasketballViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballViewController.swift; sourceTree = "<group>"; };
 		B2734F13261F4255004F4296 /* Basketball.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Basketball.scnassets; sourceTree = "<group>"; };
 		B27E6D1E261CB118004E817A /* ARPortalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPortalViewController.swift; sourceTree = "<group>"; };
+		B2F1BE34261F86330011D364 /* CollisionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionsViewController.swift; sourceTree = "<group>"; };
+		B2F1BE39261F87340011D364 /* Media.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Media.scnassets; sourceTree = "<group>"; };
 		CACDA9D24956F3F1F4896D96 /* Pods-ARKitTraining-ARKitTrainingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitTraining-ARKitTrainingUITests.debug.xcconfig"; path = "Target Support Files/Pods-ARKitTraining-ARKitTrainingUITests/Pods-ARKitTraining-ARKitTrainingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA09F7DF474D8E245FB94C65 /* Pods-ARKitTrainingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitTrainingTests.release.xcconfig"; path = "Target Support Files/Pods-ARKitTrainingTests/Pods-ARKitTrainingTests.release.xcconfig"; sourceTree = "<group>"; };
 		F3929DCF6E603A5A15B86B9E /* Pods-ARKitTrainingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitTrainingTests.debug.xcconfig"; path = "Target Support Files/Pods-ARKitTrainingTests/Pods-ARKitTrainingTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -109,7 +113,6 @@
 				F3929DCF6E603A5A15B86B9E /* Pods-ARKitTrainingTests.debug.xcconfig */,
 				DA09F7DF474D8E245FB94C65 /* Pods-ARKitTrainingTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,6 +156,7 @@
 				B23210122614BAC3003EC275 /* SceneDelegate.swift */,
 				B23210162614BAC3003EC275 /* Main.storyboard */,
 				B23210192614BAC6003EC275 /* Assets.xcassets */,
+				B2F1BE39261F87340011D364 /* Media.scnassets */,
 				B232101B2614BAC6003EC275 /* LaunchScreen.storyboard */,
 				B232101E2614BAC6003EC275 /* Info.plist */,
 				B2734F13261F4255004F4296 /* Basketball.scnassets */,
@@ -185,6 +189,7 @@
 				B23210142614BAC3003EC275 /* DistanceMeasurementController.swift */,
 				B27E6D1E261CB118004E817A /* ARPortalViewController.swift */,
 				B2734F0D261F3F4C004F4296 /* BasketballViewController.swift */,
+				B2F1BE34261F86330011D364 /* CollisionsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F1BE3A261F87350011D364 /* Media.scnassets in Resources */,
 				B2734F14261F4255004F4296 /* Basketball.scnassets in Resources */,
 				B232101D2614BAC6003EC275 /* LaunchScreen.storyboard in Resources */,
 				B232101A2614BAC6003EC275 /* Assets.xcassets in Resources */,
@@ -430,6 +436,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B23210152614BAC3003EC275 /* DistanceMeasurementController.swift in Sources */,
+				B2F1BE35261F86330011D364 /* CollisionsViewController.swift in Sources */,
 				B23210112614BAC3003EC275 /* AppDelegate.swift in Sources */,
 				B23210132614BAC3003EC275 /* SceneDelegate.swift in Sources */,
 				B2734F0E261F3F4C004F4296 /* BasketballViewController.swift in Sources */,
